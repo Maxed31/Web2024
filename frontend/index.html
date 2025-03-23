@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>PCVerse - Build Your Dream PC</title>
+    <meta charset="utf-8">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/spapp.css" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+          <a class="navbar-brand" href="#homepage">
+            <img src="assets/images/logo.png" alt="PCVerse Logo" width="100" class="logo me-2"> PCVerse
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#homepage">Homepage</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#adminpage">Admin</a></li>
+              </ul>
+          </div>
+          <a class="btn btn-outline-dark d-flex align-items-center gap-2" href="#register">
+            Register <i class="bi bi-person-circle"></i>
+          </a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="spapp" role="main">
+      <!-- Homepage Section -->
+      <section id="homepage" data-load="homepage.html"></section>
+
+      <!-- Item Section -->
+      <section id="item" data-load="item.html"></section>
+
+      <!-- Profile Section -->
+      <section id="profile" data-load="profile.html"></section>
+
+      <!-- Login Section -->
+      <section id="login" data-load="login.html"></section>
+
+      <!-- Register Section -->
+      <section id="register" data-load="register.html"></section>
+
+      <!-- Admin Page Section -->
+      <section id="adminpage" data-load="adminpage.html"></section>
+
+      <!-- Error Section -->
+      <section id="error_404" class="header-blue">
+        <h1>Page not found</h1>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/libraries/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/libraries/jquery-3.7.1-latest.js"></script>
+    <script src="assets/js/libraries/jquery.spapp.min.js"></script>
+    <script src="assets/js/libraries/jquery.spapp.js"></script>
+    <script src="assets/js/libraries/jquery.validate.min.js"></script>
+    <script src="assets/js/libraries/custom.js"></script>
+    <script src="assets/js/libraries/toastr.min.js"></script>
+    <script src="assets/js/libraries/block-ui.js"></script>
+    <script src="assets/js/libraries/dataTables.js"></script>
+    <script src="assets/js/libraries/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/libraries/jquery.easing.min.js"></script>
+    <script src="assets/js/libraries/sb-admin-2.min.js"></script>
+
+  </body>
+
+</html>
